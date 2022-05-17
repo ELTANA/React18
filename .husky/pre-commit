@@ -1,0 +1,8 @@
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+
+yarn lint
+
+# CLI Command
+# npx husky set .husky/pre-commit "yarn lint"
+# husky - created .husky/pre-commit
